@@ -15,5 +15,5 @@ jobs:
   # uses: super-linter/super-linter@b92721f792f381cedc002ecdbb9847a15ece5bb8
         uses: super-linter/super-linter@v7.1.0
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
